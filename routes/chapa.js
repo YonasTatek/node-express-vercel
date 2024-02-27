@@ -4,7 +4,7 @@ const router = express.Router();
 const Chapa = require('chapa')
 
 
-const chapaKey = "CHASECK-IqsDsI0P8QMoXO9cIXCRMCCOXKuWM01Y"
+const chapaKey = "CHASECK_TEST-MxHx9fSnnfX0WvvcE6VuknG9YHsF882D"
 
 let myChapa = new Chapa(chapaKey)
 
