@@ -12,11 +12,11 @@ router.use(cors())
 router.post("/", async (req, res, next) => {
     const { 
         first_name,amount,email="",phone_number,title="",
-        return_url,description="",text_ref} 
+        return_url,description="",tx_ref} 
         = req.body
     const TEXT_REF = "tx-emwa12345" + Date.now()
    
-   const url = return_url + text_ref;
+   const url = return_url + tx_ref;
    
    
 
